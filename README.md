@@ -23,7 +23,7 @@ settings: {
         },
         //...
 
-var tmodjs = require(__dirname + path.sep + 'nodejsLib/node_modules/fis-parser-tmodjs/index.js');
+var tmodjs = require(__dirname + path.sep + 'nodejsLib/node_modules/fis-parser-tmpl/index.js');
 
 fis.config.set('modules.parser.tmpl', tmodjs);
 ```
