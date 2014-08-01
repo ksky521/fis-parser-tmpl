@@ -1,8 +1,12 @@
 {
   "name": "fis-parser-tmpl",
   "description": "A parser for fis to compile artTemplate file.",
-  "version": "0.1.0",
-  "site": "https://github.com/ksky521/nodePPT",
+  "version": "0.1.1",
+  "site": "https://github.com/ksky521/fis-parser-tmpl",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ksky521/fis-parser-tmpl"
+  },
   "author": {
     "name": "Theo Wang",
     "email": "ksky521@gmail.com"
