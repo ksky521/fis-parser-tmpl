@@ -1,0 +1,27 @@
+{
+  "name": "fis-parser-tmpl",
+  "description": "A parser for fis to compile artTemplate file.",
+  "version": "0.1.0",
+  "site": "https://github.com/ksky521/nodePPT",
+  "author": {
+    "name": "Theo Wang",
+    "email": "ksky521@gmail.com"
+  },
+  "keywords": [
+    "fis",
+    "artTemplate",
+    "template",
+    "tmodjs"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "dependencies": {
+    "tmodjs": "1.0.1-rc5"
+  },
+  "devDependencies": {},
+  "scripts": {},
+  "readmeFilename": "README.md"
+}
