@@ -8,10 +8,10 @@
 var TmodJS = require('tmodjs');
 
 module.exports = function(content, file, conf){
+    var config = fis.config.get('settings.parser.tmpl');
     var tmod = new TmodJS('./', fis.config.get('settings.parser.tmpl'));
-    var modObject = tmod.template.AOTcompile(content, {
-        filename: file.id
-    });
+    config.filename = file.id;
+    var modObject = tmod.template.AOTcompile(content, config);
 
     var deps = modObject.requires;
     if(deps){
