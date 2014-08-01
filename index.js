@@ -16,9 +16,9 @@ module.exports = function(content, file, conf){
     var deps = modObject.requires;
     if(deps){
         deps = deps.map(function(v){
-            return v.replace(/^\.\//, '');
+            file.addRequire(v.replace(/^\.\//, ''));
         });
     }
-    file.deps = deps;
-    return modObject.code;
+
+    return modObject.code.replace('template(','$.template(');
 };
