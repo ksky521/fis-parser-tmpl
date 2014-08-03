@@ -20,5 +20,5 @@ module.exports = function(content, file, conf){
         });
     }
 
-    return modObject.code.replace('template(','$.template(');
+    return modObject.code;//.replace('template(','$.template(');
 };
